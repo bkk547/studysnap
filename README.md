@@ -146,7 +146,6 @@ frontend/package.json
 ## 📁 Missing DeepSpeech Files
 
 ---
-
 **Download and place the required files in:**
 
 ```bash
