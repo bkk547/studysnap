@@ -66,7 +66,6 @@ Check out the live frontend demo hosted on Netlify:
 ```git bash
 git clone https://github.com/bkk547/studysnap.git
 cd studysnap
-
 ```
 ## 2. Set up the Python backend
 
@@ -103,8 +102,6 @@ python app.py
 cd ../frontend
 npm install
 npm start
-```
-```
 ```
 ## 📬 Contact
 Built by Bienvenu Konan  
