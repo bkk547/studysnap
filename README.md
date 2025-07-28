@@ -106,7 +106,6 @@ npm start
 
 # 🧪 Optional Enhancements
 
-
 ## 📄 Exporting Notes as PDF
 
 StudySnap uses [`jspdf`](https://www.npmjs.com/package/jspdf) to allow users to export transcribed notes.
@@ -134,7 +133,7 @@ Content-Type: application/json
 }
 
 ```
-## Troubleshooting 🛠
+# Troubleshooting 🛠
 
 If you encounter CORS errors, confirm that the proxy is set correctly in:
 
@@ -150,7 +149,7 @@ frontend/package.json
 backend/models/
 
 ```
-## 📬 Contact
+# 📬 Contact
 Built by Bienvenu Konan  
 [LinkedIn](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile) • [GitHub](https://github.com/bkk547)
 
