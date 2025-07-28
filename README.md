@@ -24,7 +24,7 @@ This project taught me how to:
 
 ---
 
-## 🚀 Features
+## 🚀 Interface
 - 🎙️ Upload or record audio
 - 🧠 Transcription + summarization
 - 📁 Transcript history with custom labels
@@ -44,9 +44,30 @@ This project taught me how to:
 ## 📸 Screenshots
 *Coming soon — UI, summary editor, history timeline*
 
-## 🎥 Demo
-*Coming soon — video walkthrough of full pipeline*
+## 🚀 Live Demo
+Check out the live frontend demo hosted on Netlify:  
+🔗 [studysnap-demo.netlify.app](https://studysnap-demo.netlify.app)
+
+> Note: The demo showcases the interface. Full speech-to-text functionality requires local setup due to backend limitations.
+
+## 🧠 Features
+
+- 🎤 Offline speech recognition using DeepSpeech
+- 🗂️ Organizes transcribed notes by topic
+- 🔒 Runs locally for full privacy
+- 🧪 Built with Python, PyTorch, and React
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/bkk547/studysnap.git
+cd studysnap
 
 ## 📬 Contact
 Built by Bienvenu Konan  
 [LinkedIn](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile) • [GitHub](https://github.com/bkk547)
+
