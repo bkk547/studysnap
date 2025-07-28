@@ -63,10 +63,49 @@ Check out the live frontend demo hosted on Netlify:
 
 ### 1. Clone the repo
 
-```bash
+```git bash
 git clone https://github.com/bkk547/studysnap.git
 cd studysnap
 
+```
+## 2. Set up the Python backend
+
+```bash
+cd backend
+pip install -r requirements.txt
+
+```
+## 3. Download DeepSpeech model files
+⚠️ These files are not included in the repo due to size limits.
+
+Download the following files:
+
+> deepspeech-0.9.3-models.pbmm
+> deepspeech-0.9.3-models.scorer
+
+Place them in a folder named models/:
+```
+backend/
+├── models/
+│   ├── deepspeech-0.9.3-models.pbmm
+│   └── deepspeech-0.9.3-models.scorer
+
+```
+## 4. Run your backend
+
+```bash
+python app.py
+
+```
+## 5. Set up your frontend
+
+```bash
+cd ../frontend
+npm install
+npm start
+```
+```
+```
 ## 📬 Contact
 Built by Bienvenu Konan  
 [LinkedIn](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile) • [GitHub](https://github.com/bkk547)
