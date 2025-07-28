@@ -107,7 +107,7 @@ npm start
 ### 🧪 Optional Enhancements
 
 
-## 1. 📄 Exporting Notes as PDF
+# 📄 Exporting Notes as PDF
 
 StudySnap uses [`jspdf`](https://www.npmjs.com/package/jspdf) to allow users to export transcribed notes.
 
@@ -118,7 +118,7 @@ StudySnap uses [`jspdf`](https://www.npmjs.com/package/jspdf) to allow users to 
 
 ---
 
-## 2. 🤖 AI-Powered Q&A
+# 2. 🤖 AI-Powered Q&A
 
 Users can ask questions about their notes using the AI chat feature.
 
@@ -134,7 +134,7 @@ Content-Type: application/json
 }
 
 ```
-### Troubleshooting 🛠
+## Troubleshooting 🛠
 
 If you encounter CORS errors, confirm that the proxy is set correctly in:
 
@@ -142,7 +142,7 @@ If you encounter CORS errors, confirm that the proxy is set correctly in:
 frontend/package.json
 
 ```
-## 📁 Missing DeepSpeech Files
+# 📁 Missing DeepSpeech Files
 
 **Download and place the required files in:**
 
