@@ -79,7 +79,7 @@ pip install -r requirements.txt
 
 Download the following files:
 
-> deepspeech-0.9.3-models.pbmm,
+> deepspeech-0.9.3-models.pbmm
 
 > deepspeech-0.9.3-models.scorer
 
