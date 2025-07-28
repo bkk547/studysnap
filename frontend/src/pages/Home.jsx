@@ -225,6 +225,17 @@ Why are balloons so expensive? Inflation.`);
         </div>
       </div>
 
+     <div className="card history">
+  <h2>📚 History</h2>
+  {history.map((entry) => (
+    <div key={entry.id}>
+      <h4>{entry.label}</h4>
+      <p><strong>Transcript:</strong> {entry.transcript}</p>
+      <p><strong>Summary:</strong> {entry.summary}</p>
+    </div>
+  ))}
+</div>
+
       {/* AI Chat */}
 {showChat && (
   <div className="chat-window">
