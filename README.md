@@ -135,6 +135,24 @@ Content-Type: application/json
 }
 
 ```
+### Troubleshooting 🛠
+
+If you encounter CORS errors, confirm that the proxy is set correctly in:
+
+```bash
+frontend/package.json
+
+```
+## 📁 Missing DeepSpeech Files
+
+---
+
+**Download and place the required files in:**
+
+```bash
+backend/models/
+
+```
 ## 📬 Contact
 Built by Bienvenu Konan  
 [LinkedIn](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile) • [GitHub](https://github.com/bkk547)
