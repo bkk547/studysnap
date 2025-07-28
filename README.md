@@ -103,6 +103,38 @@ cd ../frontend
 npm install
 npm start
 ```
+
+## 🧪 Optional Enhancements
+
+---
+
+### 📄 Exporting Notes as PDF
+
+StudySnap uses [`jspdf`](https://www.npmjs.com/package/jspdf) to allow users to export transcribed notes.
+
+**To use this feature:**
+
+- Ensure the frontend is running (`npm start`)
+- Click the **"Export as PDF"** button after transcription
+
+---
+
+### 🤖 AI-Powered Q&A
+
+Users can ask questions about their notes using the AI chat feature.
+
+**This sends a POST request to the backend endpoint:**
+
+```http
+POST /api/ask-ai
+Content-Type: application/json
+
+{
+  "prompt": "Your question here",
+  "engine": "gpt4"
+}
+
+```
 ## 📬 Contact
 Built by Bienvenu Konan  
 [LinkedIn](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile) • [GitHub](https://github.com/bkk547)
