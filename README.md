@@ -89,7 +89,6 @@ backend/
 ├── models/
 │   ├── deepspeech-0.9.3-models.pbmm
 │   └── deepspeech-0.9.3-models.scorer
-
 ```
 ## 4. Run your backend
 
